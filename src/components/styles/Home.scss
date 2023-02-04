@@ -1,0 +1,31 @@
+@import '../../App.scss';
+
+.Home {
+    @extend .content;
+    p {
+        font-size: 50px;
+        line-height: 70px;
+        letter-spacing: -1px;
+        color: $blue;
+    }
+    section.intro {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 23px;
+    }
+    $imgWidth: 345px;
+    div.img {
+        display: inline-block;
+        width: $imgWidth;
+        height: $imgWidth;
+        background: $blue-purple-gradient;
+        background-origin: border-box;
+        border: 9px solid transparent;
+        border-radius: $imgWidth;
+        margin-top: 70px;
+        img {
+            border-radius: $imgWidth;
+            width: 100%;
+        }
+    }
+}

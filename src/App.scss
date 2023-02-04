@@ -24,8 +24,19 @@ $medium-font: 28px;
         rgba(231, 15, 170, 1) 100%
     );
 }
+$blue-purple-gradient: linear-gradient(
+    90deg,
+    rgba(19, 176, 245, 1) 0%,
+    rgba(231, 15, 170, 1) 100%
+);
+
+.content {
+    width: 1100px;
+    margin: 0 auto;
+}
 
 body {
     font-family: Poppins;
     background-color: $white;
+    margin: 0;
 }
