@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+$dark: #666;
+$blue: #42446e;
+$black: #000;
+$white: #fff;
+
+$big-font: 48px;
+$medium-font: 28px;
+
+.purple-blue-gradient {
+    background: rgb(231, 15, 170);
+    background: linear-gradient(
+        90deg,
+        rgba(231, 15, 170, 1) 0%,
+        rgba(0, 192, 253, 1) 100%
+    );
+}
+.blue-purple-gradient {
+    background: rgb(19, 176, 245);
+    background: linear-gradient(
+        90deg,
+        rgba(19, 176, 245, 1) 0%,
+        rgba(231, 15, 170, 1) 100%
+    );
+}
+
+body {
+    font-family: Poppins;
+    background-color: $white;
+}
