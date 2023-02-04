@@ -23,17 +23,43 @@ const Home = () => {
                     <img src={require('./images/ehsan.png')} />
                 </div>
             </section>
-            {/* <section className='projects'>
+            <section className='projects'>
                 <h1>Projects</h1>
+                <p>Some of the things I've built so far.</p>
                 <div className='projects-wrapper'>
                     <div className='project'>
-                        <img src={require('./images/rectangle.png')} alt='' />
-                        <h3>
-                            <Link>Music Project</Link>
-                        </h3>
+                        <Link to='/'>
+                            <img
+                                src={require('./images/rectangle.png')}
+                                alt=''
+                            />
+                            <h3>Music Project</h3>
+                        </Link>
+                    </div>
+                    <div className='project'>
+                        <Link to='/'>
+                            <img
+                                src={require('./images/rectangle.png')}
+                                alt=''
+                            />
+                            <h3>Music Project</h3>
+                        </Link>
+                    </div>
+                    <div className='project'>
+                        <Link to='/'>
+                            <img
+                                src={require('./images/rectangle.png')}
+                                alt=''
+                            />
+                            <h3>Music Project</h3>
+                        </Link>
                     </div>
                 </div>
-            </section> */}
+            </section>
+            <section className='tech'>
+                <h2>My Tech Stack</h2>
+                <p>Technologies I've been working recently.</p>
+            </section>
         </div>
     );
 };

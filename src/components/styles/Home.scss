@@ -2,30 +2,83 @@
 
 .Home {
     @extend .content;
-    p {
-        font-size: 50px;
-        line-height: 70px;
-        letter-spacing: -1px;
-        color: $blue;
-    }
+
     section.intro {
         display: flex;
         justify-content: space-between;
         margin-top: 23px;
-    }
-    $imgWidth: 345px;
-    div.img {
-        display: inline-block;
-        width: $imgWidth;
-        height: $imgWidth;
-        background: $blue-purple-gradient;
-        background-origin: border-box;
-        border: 9px solid transparent;
-        border-radius: $imgWidth;
-        margin-top: 70px;
-        img {
+        $imgWidth: 345px;
+        div.img {
+            display: inline-block;
+            width: $imgWidth;
+            height: $imgWidth;
+            background: $blue-purple-gradient;
+            background-origin: border-box;
+            border: 9px solid transparent;
             border-radius: $imgWidth;
-            width: 100%;
+            margin-top: 70px;
+            img {
+                border-radius: $imgWidth;
+                width: 100%;
+            }
+        }
+        p {
+            font-size: 50px;
+            line-height: 70px;
+            letter-spacing: -1px;
+            color: $blue;
+        }
+    }
+    section.projects {
+        text-align: center;
+        margin-top: 120px;
+        p {
+            font-size: 24px;
+            margin-top: 7px;
+            color: $dark;
+        }
+        h1 {
+            color: $blue;
+            font-size: 45px;
+            margin: 0;
+        }
+        div.projects-wrapper {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            div.project {
+                width: 340px;
+                text-decoration: none;
+                margin-bottom: 50px;
+                box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+                border-radius: 20px;
+                a {
+                    color: $black;
+                    text-decoration: none;
+                }
+            }
+            img {
+                width: 100%;
+                display: block;
+            }
+            h3 {
+                margin: 7px;
+                font-size: 23px;
+            }
+        }
+    }
+    section.tech {
+        text-align: center;
+        margin-top: 70px;
+        h2 {
+            color: $blue;
+            font-size: 45px;
+            margin: 0;
+        }
+        p {
+            font-size: 24px;
+            margin-top: 7px;
+            color: $dark;
         }
     }
 }
