@@ -7,21 +7,21 @@ const Header = () => {
             <nav>
                 <ul>
                     <li>
-                        <Link to='/'>
+                        <a href='https://github.com/ehsansh/'>
                             <img src={require('./icons/github.svg').default} />
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link to='/'>
+                        <a href='https://www.linkedin.com/in/ehsan-shadmehri-ba700376/'>
                             <img
                                 src={require('./icons/linkedin.svg').default}
                             />
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link to='/'>
+                        <a href='mailto:ehsanshadmehri@gmail.com'>
                             <img src={require('./icons/email.svg').default} />
-                        </Link>
+                        </a>
                     </li>
                 </ul>
                 <p>@2022 Ehsan Shadmehri All rights reserved.</p>

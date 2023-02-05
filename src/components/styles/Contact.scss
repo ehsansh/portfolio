@@ -2,8 +2,8 @@
 
 .Contact {
     text-align: center;
-    min-height: 70vh;
-    font-size: 24px;
+    min-height: calc(100vh - 220px);
+    font-size: $small-font;
     line-height: 46px;
     color: $dark;
     p {

@@ -10,7 +10,10 @@ const Contact = () => {
                     ehsanshadmehri@gmail.com
                 </a>
                 <br />
-                Or send a message in <a href=''>linkedin</a>
+                Or send a message in{' '}
+                <a href='https://www.linkedin.com/in/ehsan-shadmehri-ba700376/'>
+                    linkedin
+                </a>
             </p>
         </div>
     );
