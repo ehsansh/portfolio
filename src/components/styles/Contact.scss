@@ -1,0 +1,16 @@
+@import '../../App.scss';
+
+.Contact {
+    text-align: center;
+    min-height: 70vh;
+    font-size: 24px;
+    line-height: 46px;
+    color: $dark;
+    p {
+        padding-top: 50px;
+    }
+
+    a {
+        color: $blue;
+    }
+}

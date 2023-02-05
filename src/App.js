@@ -6,6 +6,7 @@ import './App.scss';
 import Header from './components/Header';
 import Footer from './components/Footer';
 const Home = lazy(() => import('./components/Home'));
+const Contact = lazy(() => import('./components/Contact'));
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <Suspense>
                 <Routes>
                     <Route path='/' element={<Home />} />
+                    <Route path='/contact' element={<Contact />} />
                 </Routes>
             </Suspense>
             <Footer />
