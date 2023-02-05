@@ -1,42 +1,26 @@
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './styles/Home.scss';
 
 const Home = () => {
-    // const projects = useRef(null);
-
-    // if (projects?.current) {
-    //     const hashtagIndex = window.location.href.indexOf('#');
-    //     if (hashtagIndex > 0) {
-    //         projects.current.scrollIntoView({ behavior: 'smooth' });
-    //     }
-    // }
-
-    // useEffect(() => {
-    //     const hashtagIndex = window.location.href.indexOf('#');
-    //     if (hashtagIndex > 0) {
-    //         projects.current.scrollIntoView({ behavior: 'smooth' });
-    //     }
-    // }, []);
-
     return (
         <div className='Home'>
             <section className='intro'>
                 <p className='text'>
                     Hi, <br />
-                    My name is
+                    My name is Ehsan Shadmehri.
                     <br />
-                    Ehsan Shadmehri
+                    I am a front-end developer, with
                     <br />
-                    I am a front-end developer
+                    some experiences in back-end.
                     <br />
-                    with some experiences
-                    <br />
-                    in back-end.
                 </p>
                 <div className='img'>
-                    <img src={require('./images/ehsan.png')} />
+                    <img
+                        alt='ehsan shadmehri'
+                        src={require('./images/ehsan.png')}
+                    />
                 </div>
             </section>
             <section id='projects' className='my-projects'>
@@ -77,50 +61,92 @@ const Home = () => {
                 <p>Technologies I've been working recently.</p>
                 <div className='tech-stack-wrapper'>
                     <div className='tech'>
-                        <img src={require('./icons/html5.svg').default} />
+                        <img
+                            alt='html5'
+                            src={require('./icons/html5.svg').default}
+                        />
                     </div>
                     <div className='tech'>
-                        <img src={require('./icons/css3.svg').default} />
+                        <img
+                            alt='css3'
+                            src={require('./icons/css3.svg').default}
+                        />
                     </div>
                     <div className='tech'>
-                        <img src={require('./icons/sass.svg').default} />
+                        <img
+                            al='sass'
+                            src={require('./icons/sass.svg').default}
+                        />
                     </div>
                     <div className='tech'>
-                        <img src={require('./icons/javascript.svg').default} />
+                        <img
+                            alt='javascript'
+                            src={require('./icons/javascript.svg').default}
+                        />
                     </div>
                     <div className='tech'>
-                        <img src={require('./icons/react.svg').default} />
+                        <img
+                            alt='react'
+                            src={require('./icons/react.svg').default}
+                        />
                     </div>
                     <div className='tech'>
-                        <img src={require('./icons/redux.svg').default} />
+                        <img
+                            alt='redux'
+                            src={require('./icons/redux.svg').default}
+                        />
                     </div>
                     <div className='tech'>
                         <img src={require('./icons/vuejs.svg').default} />
                     </div>
                     <div className='tech'>
-                        <img src={require('./icons/figma.svg').default} />
+                        <img
+                            alt='figma'
+                            src={require('./icons/figma.svg').default}
+                        />
                     </div>
                     <div className='tech'>
-                        <img src={require('./icons/nodejs.svg').default} />
+                        <img
+                            alt='nodejs'
+                            src={require('./icons/nodejs.svg').default}
+                        />
                     </div>
                     <div className='tech'>
-                        <img src={require('./icons/express.svg').default} />
+                        <img
+                            alt='express-js'
+                            src={require('./icons/express.svg').default}
+                        />
                     </div>
                     <div className='tech'>
-                        <img src={require('./icons/mysql.svg').default} />
+                        <img
+                            alt='mysql'
+                            src={require('./icons/mysql.svg').default}
+                        />
                     </div>
                     <div className='tech'>
-                        <img src={require('./icons/sequelize.svg').default} />
+                        <img
+                            alt='sequelize'
+                            src={require('./icons/sequelize.svg').default}
+                        />
                     </div>
                     <div className='tech'>
-                        <img src={require('./icons/github.svg').default} />
+                        <img
+                            alt='github'
+                            src={require('./icons/github.svg').default}
+                        />
                     </div>
                     <div className='tech'>
-                        <img src={require('./icons/git.svg').default} />
+                        <img
+                            alt='git'
+                            src={require('./icons/git.svg').default}
+                        />
                     </div>
 
                     <div className='tech'>
-                        <img src={require('./icons/vs-code.svg').default} />
+                        <img
+                            alt='vs-code'
+                            src={require('./icons/vs-code.svg').default}
+                        />
                     </div>
                 </div>
             </section>

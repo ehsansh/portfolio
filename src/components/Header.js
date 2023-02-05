@@ -14,7 +14,6 @@ const Header = () => {
                         <HashLink smooth to='/#projects'>
                             projects
                         </HashLink>
-                        {/* <Link to='/#projects'>Projects</Link> */}
                     </li>
                     <li>
                         <Link to='/about'>About</Link>

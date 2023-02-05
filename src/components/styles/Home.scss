@@ -8,6 +8,7 @@
         justify-content: space-between;
         margin-top: 23px;
         $imgWidth: 345px;
+        // min-height: calc(100vh - 53px);
         div.img {
             display: inline-block;
             width: $imgWidth;
@@ -16,31 +17,32 @@
             background-origin: border-box;
             border: 9px solid transparent;
             border-radius: $imgWidth;
-            margin-top: 70px;
+            margin-top: 42px;
             img {
                 border-radius: $imgWidth;
                 width: 100%;
             }
         }
         p {
-            font-size: 50px;
+            font-size: $big-font;
             line-height: 70px;
             letter-spacing: -1px;
             color: $blue;
+            margin-top: 65px;
         }
     }
     section.my-projects {
         text-align: center;
-        margin-top: 120px;
+        margin-top: 150px;
         p {
-            font-size: 24px;
+            font-size: $small-font;
             margin-top: 7px;
             color: $dark;
         }
         h1 {
             color: $blue;
-            font-size: 45px;
-            margin: 0;
+            font-size: $medium-font;
+            margin: 0 0 12px;
         }
         div.projects-wrapper {
             display: flex;
@@ -63,7 +65,8 @@
             }
             h3 {
                 margin: 7px;
-                font-size: 23px;
+                font-size: $small-font;
+                font-weight: inherit;
             }
         }
     }
@@ -72,11 +75,11 @@
         margin: 70px auto;
         h2 {
             color: $blue;
-            font-size: 45px;
-            margin: 0;
+            font-size: $medium-font;
+            margin: 0 0 12px;
         }
         p {
-            font-size: 24px;
+            font-size: $small-font;
             margin-top: 7px;
             color: $dark;
         }
@@ -84,9 +87,10 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            margin: 33px 0 80px;
         }
         div.tech {
-            width: 80px;
+            width: 70px;
             text-transform: uppercase;
             margin: 19px 29px;
             img {
