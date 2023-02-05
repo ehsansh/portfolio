@@ -81,7 +81,9 @@ const Home = () => {
                     <div className='tech'>
                         <img src={require('./icons/vuejs.svg').default} />
                     </div>
-
+                    <div className='tech'>
+                        <img src={require('./icons/figma.svg').default} />
+                    </div>
                     <div className='tech'>
                         <img src={require('./icons/nodejs.svg').default} />
                     </div>
