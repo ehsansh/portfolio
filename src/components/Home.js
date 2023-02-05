@@ -56,9 +56,55 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className='tech'>
+            <section className='tech-stack'>
                 <h2>My Tech Stack</h2>
                 <p>Technologies I've been working recently.</p>
+                <div className='tech-stack-wrapper'>
+                    <div className='tech'>
+                        <img src={require('./icons/html5.svg').default} />
+                    </div>
+                    <div className='tech'>
+                        <img src={require('./icons/css3.svg').default} />
+                    </div>
+                    <div className='tech'>
+                        <img src={require('./icons/sass.svg').default} />
+                    </div>
+                    <div className='tech'>
+                        <img src={require('./icons/javascript.svg').default} />
+                    </div>
+                    <div className='tech'>
+                        <img src={require('./icons/react.svg').default} />
+                    </div>
+                    <div className='tech'>
+                        <img src={require('./icons/redux.svg').default} />
+                    </div>
+                    <div className='tech'>
+                        <img src={require('./icons/vuejs.svg').default} />
+                    </div>
+
+                    <div className='tech'>
+                        <img src={require('./icons/nodejs.svg').default} />
+                    </div>
+                    <div className='tech'>
+                        <img src={require('./icons/express.svg').default} />
+                    </div>
+                    <div className='tech'>
+                        <img src={require('./icons/mysql.svg').default} />
+                    </div>
+                    <div className='tech'>
+                        <img src={require('./icons/sequelize.svg').default} />
+                    </div>
+                    <div className='tech'>
+                        <img src={require('./icons/github.svg').default} />
+                    </div>
+                    <div className='tech'>
+                        <img src={require('./icons/git.svg').default} />
+                    </div>
+
+                    <div className='tech'>
+                        <img src={require('./icons/vs-code.svg').default} />
+                    </div>
+                </div>
             </section>
         </div>
     );

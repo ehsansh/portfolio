@@ -67,9 +67,9 @@
             }
         }
     }
-    section.tech {
+    section.tech-stack {
         text-align: center;
-        margin-top: 70px;
+        margin: 70px auto;
         h2 {
             color: $blue;
             font-size: 45px;
@@ -79,6 +79,26 @@
             font-size: 24px;
             margin-top: 7px;
             color: $dark;
+        }
+        div.tech-stack-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        div.tech {
+            width: 80px;
+            text-transform: uppercase;
+            margin: 19px 29px;
+            img {
+                display: block;
+                width: 100%;
+            }
+            span {
+                margin: 8px auto;
+                font-size: 19px;
+                color: $dark;
+                display: block;
+            }
         }
     }
 }
