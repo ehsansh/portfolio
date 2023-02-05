@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './styles/Header.scss';
 const Header = () => {
     return (
@@ -10,7 +11,10 @@ const Header = () => {
                         <Link to='/'>Home</Link>
                     </li>
                     <li>
-                        <Link to='/'>Projects</Link>
+                        <HashLink smooth to='/#projects'>
+                            projects
+                        </HashLink>
+                        {/* <Link to='/#projects'>Projects</Link> */}
                     </li>
                     <li>
                         <Link to='/about'>About</Link>

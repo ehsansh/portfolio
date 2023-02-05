@@ -1,9 +1,25 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import './styles/Home.scss';
 
 const Home = () => {
+    // const projects = useRef(null);
+
+    // if (projects?.current) {
+    //     const hashtagIndex = window.location.href.indexOf('#');
+    //     if (hashtagIndex > 0) {
+    //         projects.current.scrollIntoView({ behavior: 'smooth' });
+    //     }
+    // }
+
+    // useEffect(() => {
+    //     const hashtagIndex = window.location.href.indexOf('#');
+    //     if (hashtagIndex > 0) {
+    //         projects.current.scrollIntoView({ behavior: 'smooth' });
+    //     }
+    // }, []);
+
     return (
         <div className='Home'>
             <section className='intro'>
@@ -23,7 +39,7 @@ const Home = () => {
                     <img src={require('./images/ehsan.png')} />
                 </div>
             </section>
-            <section className='projects'>
+            <section id='projects' className='my-projects'>
                 <h1>Projects</h1>
                 <p>Some of the things I've built so far.</p>
                 <div className='projects-wrapper'>

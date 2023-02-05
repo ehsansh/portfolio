@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
+
 import './App.scss';
 
 import Header from './components/Header';
@@ -16,6 +17,7 @@ function App() {
             <Suspense>
                 <Routes>
                     <Route path='/' element={<Home />} />
+
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/about' element={<About />} />
                 </Routes>
