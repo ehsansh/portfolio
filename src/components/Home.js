@@ -13,7 +13,7 @@ const Home = () => {
                     <br />
                     I am a front-end developer, with
                     <br />
-                    some experiences in back-end.
+                    some back-end knowledge.
                     <br />
                 </p>
                 <div className='img'>
@@ -33,7 +33,7 @@ const Home = () => {
                                 src={require('./images/rectangle.png')}
                                 alt=''
                             />
-                            <h3>Music Project</h3>
+                            <h3>Melodia</h3>
                         </Link>
                     </div>
                     <div className='project'>
@@ -42,7 +42,7 @@ const Home = () => {
                                 src={require('./images/rectangle.png')}
                                 alt=''
                             />
-                            <h3>Music Project</h3>
+                            <h3>MeloLearn</h3>
                         </Link>
                     </div>
                     <div className='project'>
@@ -51,7 +51,36 @@ const Home = () => {
                                 src={require('./images/rectangle.png')}
                                 alt=''
                             />
-                            <h3>Music Project</h3>
+                            <h3>Music Editor</h3>
+                        </Link>
+                    </div>
+                </div>
+                <div className='projects-wrapper'>
+                    <div className='project'>
+                        <Link to='/'>
+                            <img
+                                src={require('./images/rectangle.png')}
+                                alt=''
+                            />
+                            <h3>Rameshgar</h3>
+                        </Link>
+                    </div>
+                    <div className='project'>
+                        <Link to='/'>
+                            <img
+                                src={require('./images/rectangle.png')}
+                                alt=''
+                            />
+                            <h3>Comments Project</h3>
+                        </Link>
+                    </div>
+                    <div className='project'>
+                        <Link to='/'>
+                            <img
+                                src={require('./images/rectangle.png')}
+                                alt=''
+                            />
+                            <h3>Space Tourism</h3>
                         </Link>
                     </div>
                 </div>

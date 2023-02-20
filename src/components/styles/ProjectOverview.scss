@@ -1,0 +1,19 @@
+@import '../../App.scss';
+
+.ProjectOverview {
+    @extend .content;
+    min-height: 70vh;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    h1 {
+        color: #42446e;
+        font-size: $medium-font;
+        margin: 0;
+        padding-bottom: 24px;
+    }
+    p {
+        font-size: $small-font;
+        margin-top: 7px;
+        color: #666;
+    }
+}
