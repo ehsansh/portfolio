@@ -24,7 +24,7 @@ const Header = () => {
                         </a>
                     </li>
                 </ul>
-                <p>@2022 Ehsan Shadmehri All rights reserved.</p>
+                <p>&copy;2022 Ehsan Shadmehri All rights reserved.</p>
             </nav>
         </footer>
     );

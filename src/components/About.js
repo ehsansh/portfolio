@@ -56,7 +56,8 @@ const About = () => {
                 Let's return to the technical side of things. I began my journey
                 in web development in 2013 and gained experience working as a
                 PHP and front-end developer for small companies in 2014. In
-                2015, I embarked on my music startup project and have been
+                2015, I embarked on my{' '}
+                <a href='/rameshgar'>music startup project</a> and have been
                 working on it since then while also taking on freelance
                 projects. You can find more information about my music endeavors
                 on my portfolio and view some of my coding projects on my GitHub

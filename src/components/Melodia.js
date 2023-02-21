@@ -1,16 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './styles/ProjectOverview.scss';
 const Melodia = () => {
+    useEffect(() => {
+        document.title = 'Portfolio - Melodia';
+    }, []);
     return (
         <div className='ProjectOverview'>
             <h1>Melodia</h1>
             <p>
-                Tech Stack: html5, css3, jQuery, canvas, web audio api,
-                express.js
+                <span className='bold'>Tech Stack</span>: html5, css3, jQuery,
+                canvas, web audio api, express.js
                 <br />
-                Live Preview:{' '}
+                <span className='bold'>Live Preview</span> :{' '}
                 <a href='https://melodia.shadmehri.xyz'>
-                    https://melodia.shadmehri.xyz
+                    melodia.shadmehri.xyz
                 </a>
             </p>
             <p>

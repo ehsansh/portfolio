@@ -16,4 +16,20 @@
         margin-top: 7px;
         color: #666;
     }
+    span.bold {
+        font-weight: bold;
+        color: $black;
+    }
+    img {
+        display: block;
+        margin: 10px auto;
+        width: 700px;
+    }
+}
+@media (max-width: 800px) {
+    .ProjectOverview {
+        img {
+            width: 90%;
+        }
+    }
 }

@@ -28,7 +28,7 @@ const Home = () => {
                 <p>Some of the things I've built so far.</p>
                 <div className='projects-wrapper'>
                     <div className='project'>
-                        <Link to='/'>
+                        <Link to='/melodia'>
                             <img
                                 src={require('./images/rectangle.png')}
                                 alt=''
@@ -37,7 +37,7 @@ const Home = () => {
                         </Link>
                     </div>
                     <div className='project'>
-                        <Link to='/'>
+                        <Link to='/melolearn'>
                             <img
                                 src={require('./images/rectangle.png')}
                                 alt=''
@@ -46,7 +46,7 @@ const Home = () => {
                         </Link>
                     </div>
                     <div className='project'>
-                        <Link to='/'>
+                        <Link to='/musiceditor'>
                             <img
                                 src={require('./images/rectangle.png')}
                                 alt=''
@@ -57,7 +57,7 @@ const Home = () => {
                 </div>
                 <div className='projects-wrapper'>
                     <div className='project'>
-                        <Link to='/'>
+                        <Link to='/rameshgar'>
                             <img
                                 src={require('./images/rectangle.png')}
                                 alt=''
@@ -66,21 +66,21 @@ const Home = () => {
                         </Link>
                     </div>
                     <div className='project'>
-                        <Link to='/'>
+                        <Link to='/comments'>
                             <img
                                 src={require('./images/rectangle.png')}
                                 alt=''
                             />
-                            <h3>Comments Project</h3>
+                            <h3>Comments</h3>
                         </Link>
                     </div>
                     <div className='project'>
-                        <Link to='/'>
+                        <Link to='/space'>
                             <img
                                 src={require('./images/rectangle.png')}
                                 alt=''
                             />
-                            <h3>Space Tourism</h3>
+                            <h3>Space</h3>
                         </Link>
                     </div>
                 </div>
