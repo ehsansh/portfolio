@@ -3,6 +3,7 @@ import './styles/ProjectOverview.scss';
 const Melodia = () => {
     useEffect(() => {
         document.title = 'Portfolio - Melodia';
+        window.scrollTo(0, 0);
     }, []);
     return (
         <div className='ProjectOverview'>
@@ -45,7 +46,7 @@ const Melodia = () => {
                 instruments, but now you can access some of them on the
                 following link:{' '}
                 <a href='https://melodia.shadmehri.xyz'>
-                    https://melodia.shadmehri.xyz
+                    melodia.shadmehri.xyz
                 </a>
                 <br />
                 For the version that is online now, I used a simple Express app

@@ -3,6 +3,7 @@ import './styles/ProjectOverview.scss';
 const MeloLearn = () => {
     useEffect(() => {
         document.title = 'Portfolio - MeloLearn';
+        window.scrollTo(0, 0);
     }, []);
     return (
         <div className='ProjectOverview'>
@@ -16,6 +17,22 @@ const MeloLearn = () => {
                     melolearn.shadmehri.xyz
                 </a>
             </p>
+            <p>
+                Check out MeloLearn in action! Watch the video for a
+                demonstration of what I've accomplished. Thanks for taking the
+                time to view it!
+            </p>
+            <div className='video'>
+                <iframe
+                    width='560'
+                    height='315'
+                    src='https://www.youtube.com/embed/fTAQ5E7XeQE'
+                    title='YouTube video player'
+                    frameborder='0'
+                    allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                    allowfullscreen
+                ></iframe>
+            </div>
             <p>
                 MeloLearn is the latest version of{' '}
                 <a href='/melodia'>Melodia</a> , designed for the same target

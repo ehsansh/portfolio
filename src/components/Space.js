@@ -3,6 +3,7 @@ import './styles/ProjectOverview.scss';
 const Space = () => {
     useEffect(() => {
         document.title = 'Portfolio - Space';
+        window.scrollTo(0, 0);
     }, []);
 
     return (

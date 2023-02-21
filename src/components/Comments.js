@@ -3,6 +3,7 @@ import './styles/ProjectOverview.scss';
 const Comments = () => {
     useEffect(() => {
         document.title = 'Portfolio - Comments';
+        window.scrollTo(0, 0);
     }, []);
 
     return (

@@ -3,6 +3,7 @@ import './styles/ProjectOverview.scss';
 const Rameshgar = () => {
     useEffect(() => {
         document.title = 'Portfolio - Rameshgar';
+        window.scrollTo(0, 0);
     }, []);
 
     return (
@@ -16,6 +17,21 @@ const Rameshgar = () => {
                 <span className='bold'>Live Preview</span> :{' '}
                 <a href=' https://rameshgar.com'> rameshgar.com</a>
             </p>
+            <p>
+                Experience Rameshgar in action! Check out the demo video to see
+                this project in action for yourself.
+            </p>
+            <div className='video'>
+                <iframe
+                    width='560'
+                    height='315'
+                    src='https://www.youtube.com/embed/JWbBSK1mhgY'
+                    title='YouTube video player'
+                    frameborder='0'
+                    allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                    allowfullscreen
+                ></iframe>
+            </div>
             <p>
                 Rameshgar is the biggest project I have ever done solo, and it
                 is an online music learning platform available in Persian. The

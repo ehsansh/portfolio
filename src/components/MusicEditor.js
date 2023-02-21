@@ -3,6 +3,7 @@ import './styles/ProjectOverview.scss';
 const MusicEditor = () => {
     useEffect(() => {
         document.title = 'Portfolio - MusicEditor';
+        window.scrollTo(0, 0);
     }, []);
 
     return (
@@ -17,6 +18,21 @@ const MusicEditor = () => {
                     musiceditor.shadmehri.xyz
                 </a>
             </p>
+            <p>
+                See the Music Editor in action! Watch the demo video. Thank you
+                for taking the time to watch.
+            </p>
+            <div className='video'>
+                <iframe
+                    width='560'
+                    height='315'
+                    src='https://www.youtube.com/embed/i2gCPHKGPUw'
+                    title='YouTube video player'
+                    frameborder='0'
+                    allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                    allowfullscreen
+                ></iframe>
+            </div>
             <p>
                 This project is the Vue version of{' '}
                 <a href='/melodia'>Melodia</a> , which I developed using Vue.js
