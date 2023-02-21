@@ -29,17 +29,14 @@ const Home = () => {
                 <div className='projects-wrapper'>
                     <div className='project'>
                         <Link to='/melodia'>
-                            <img
-                                src={require('./images/rectangle.png')}
-                                alt=''
-                            />
+                            <img src={require('./images/melodia.png')} alt='' />
                             <h3>Melodia</h3>
                         </Link>
                     </div>
                     <div className='project'>
                         <Link to='/melolearn'>
                             <img
-                                src={require('./images/rectangle.png')}
+                                src={require('./images/melolearn.png')}
                                 alt=''
                             />
                             <h3>MeloLearn</h3>
@@ -48,7 +45,7 @@ const Home = () => {
                     <div className='project'>
                         <Link to='/musiceditor'>
                             <img
-                                src={require('./images/rectangle.png')}
+                                src={require('./images/musiceditor.png')}
                                 alt=''
                             />
                             <h3>Music Editor</h3>
@@ -57,7 +54,7 @@ const Home = () => {
                     <div className='project'>
                         <Link to='/rameshgar'>
                             <img
-                                src={require('./images/rectangle.png')}
+                                src={require('./images/rameshgar.png')}
                                 alt=''
                             />
                             <h3>Rameshgar</h3>
@@ -65,19 +62,13 @@ const Home = () => {
                     </div>
                     <div className='project'>
                         <Link to='/comments'>
-                            <img
-                                src={require('./images/rectangle.png')}
-                                alt=''
-                            />
+                            <img src={require('./images/comment.png')} alt='' />
                             <h3>Comments</h3>
                         </Link>
                     </div>
                     <div className='project'>
                         <Link to='/space'>
-                            <img
-                                src={require('./images/rectangle.png')}
-                                alt=''
-                            />
+                            <img src={require('./images/space.png')} alt='' />
                             <h3>Space</h3>
                         </Link>
                     </div>
