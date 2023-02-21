@@ -54,8 +54,6 @@ const Home = () => {
                             <h3>Music Editor</h3>
                         </Link>
                     </div>
-                </div>
-                <div className='projects-wrapper'>
                     <div className='project'>
                         <Link to='/rameshgar'>
                             <img

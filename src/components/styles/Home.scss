@@ -46,12 +46,13 @@
         }
         div.projects-wrapper {
             display: flex;
-            justify-content: space-between;
+            flex-wrap: wrap;
+            justify-content: center;
             margin-top: 40px;
             div.project {
-                width: 340px;
+                width: 320px;
                 text-decoration: none;
-                margin-bottom: 50px;
+                margin: 0 20px 50px;
                 box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
                 border-radius: 20px;
                 a {
@@ -102,6 +103,19 @@
                 font-size: 19px;
                 color: $dark;
                 display: block;
+            }
+        }
+    }
+}
+@media (max-width: 1150px) {
+    .Home {
+        section.intro {
+            flex-direction: column-reverse;
+            p {
+                text-align: center;
+            }
+            div.img {
+                margin: 42px auto 0;
             }
         }
     }

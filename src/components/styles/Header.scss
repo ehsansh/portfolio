@@ -21,3 +21,10 @@ header {
         }
     }
 }
+@media (max-width: 1200px) {
+    header {
+        ul {
+            width: 95%;
+        }
+    }
+}
