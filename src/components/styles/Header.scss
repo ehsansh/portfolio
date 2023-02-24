@@ -28,3 +28,13 @@ header {
         }
     }
 }
+@media (max-width: 1200px) {
+    header {
+        li {
+            margin-right: 30px;
+            a {
+                padding: 2px;
+            }
+        }
+    }
+}
