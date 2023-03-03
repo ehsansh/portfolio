@@ -19,7 +19,7 @@ const Home = () => {
                 <div className='img'>
                     <img
                         alt='ehsan shadmehri'
-                        src={require('./images/ehsan.png')}
+                        src={require('./images/ehsan.jpeg')}
                     />
                 </div>
             </section>

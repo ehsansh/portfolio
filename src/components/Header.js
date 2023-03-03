@@ -12,7 +12,7 @@ const Header = () => {
                     </li>
                     <li>
                         <HashLink smooth to='/#projects'>
-                            projects
+                            Projects
                         </HashLink>
                     </li>
                     <li>
