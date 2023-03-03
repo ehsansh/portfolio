@@ -8,13 +8,13 @@ const Home = () => {
         <div className='Home'>
             <section className='intro'>
                 <p className='text'>
-                    Hi, <br />
-                    My name is Ehsan Shadmehri.
+                    Multi-talented web developer
                     <br />
-                    I am a front-end developer, with
+                    with a strong foundation in problem-solving
                     <br />
-                    some back-end knowledge.
+                    skills, fueled by a diverse range of interests,
                     <br />
+                    including music, physics, and programming.
                 </p>
                 <div className='img'>
                     <img
