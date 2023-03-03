@@ -12,7 +12,7 @@ const Header = () => {
                         </a>
                     </li>
                     <li>
-                        <a href='https://www.linkedin.com/in/ehsan-shadmehri-ba700376/'>
+                        <a href='https://www.linkedin.com/in/ehsan-shadmehri/'>
                             <img
                                 src={require('./icons/linkedin.svg').default}
                             />

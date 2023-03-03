@@ -11,7 +11,7 @@ const Contact = () => {
                 </a>
                 <br />
                 Or send a message in{' '}
-                <a href='https://www.linkedin.com/in/ehsan-shadmehri-ba700376/'>
+                <a href='https://www.linkedin.com/in/ehsan-shadmehri/'>
                     linkedin
                 </a>
             </p>
