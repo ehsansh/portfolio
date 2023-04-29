@@ -166,6 +166,18 @@ const Home = () => {
                             src={require('./icons/vs-code.svg').default}
                         />
                     </div>
+                    <div className='tech'>
+                        <img
+                            alt='docker'
+                            src={require('./icons/docker.svg').default}
+                        />
+                    </div>
+                    <div className='tech'>
+                        <img
+                            alt='jest'
+                            src={require('./icons/jest.svg').default}
+                        />
+                    </div>
                 </div>
             </section>
         </div>
