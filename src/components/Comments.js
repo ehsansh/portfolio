@@ -11,7 +11,8 @@ const Comments = () => {
             <h1>Comments</h1>
             <p>
                 <span className='bold'>Tech Stack</span>: React, Context Api,
-                React Router, Sass, Express.js, Sass, mysql, sequelize
+                React Router, Sass, Express.js, Sass, mysql, sequelize, docker,
+                docker-compose
                 <br />
                 <span className='bold'>Live Preview</span> :{' '}
                 <a href='https://comment.shadmehri.xyz'>
@@ -26,6 +27,10 @@ const Comments = () => {
                 <span className='bold'>Back-end Code: </span>
                 <a href='https://github.com/ehsansh/comment-backend'>
                     github.com/ehsansh/comment-backend
+                </a>
+                <span className='bold'>Dockerized code repository: </span>
+                <a href='https://github.com/ehsansh/dockerized-comment-section'>
+                    github.com/ehsansh/dockerized-comment-section
                 </a>
             </p>
             <p>
