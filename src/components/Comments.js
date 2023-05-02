@@ -35,6 +35,25 @@ const Comments = () => {
                 </a>
             </p>
             <p>
+                This is a full-stack project I created after being inspired by
+                one of{' '}
+                <a href='https://www.frontendmentor.io'>FrontendMentor</a>'s
+                website challenges. To access the home page, you must first log
+                in. If you haven't registered yet, you can sign up on the{' '}
+                <a href='https://comment.shadmehri.xyz/register'>
+                    register page
+                </a>
+                . Once you're logged in, you can write, edit, and delete
+                comments, and upvote or downvote them. I used access and refresh
+                tokens for authentication on the server-side and Context API for
+                authentication data on the client-side. To better organize the
+                code, I created custom hooks. You can find the back-end and
+                front-end codes on my{' '}
+                <a href='https://github.com/ehsansh/'>GitHub account</a>.
+                <img src={require('./images/comment-screenshot.png')} alt='' />
+            </p>
+
+            {/* <p>
                 I was inspired by one of{' '}
                 <a href='https://www.frontendmentor.io'>FrontendMentor</a>'s
                 website challenges to create this project. However, I added some
@@ -60,7 +79,7 @@ const Comments = () => {
                 Additionally, I created custom hooks to better organize the
                 code. You can find the back-end and front-end codes on my{' '}
                 <a href='https://github.com/ehsansh/'>GitHub account</a> .
-            </p>
+            </p> */}
         </div>
     );
 };

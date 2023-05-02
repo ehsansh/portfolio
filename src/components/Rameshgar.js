@@ -33,72 +33,18 @@ const Rameshgar = () => {
                 ></iframe>
             </div>
             <p>
-                Rameshgar is the biggest project I have ever done solo, and it
-                is an online music learning platform available in Persian. The
-                platform has gone through three major versions, with{' '}
-                <a href='/melodia'>Melodia</a> being the initial version,
-                followed by the Vue version, which currently you can see its{' '}
-                <a href='/musiceditor'>music editor</a> , and the latest
-                version, <a href='/melolearn'>MeloLearn</a>, built using React.
-                <a href='/melolearn'>MeloLearn</a> is also a sample of some of
-                the web apps that can be found on Rameshgar.
-            </p>
-            <p>
-                Rameshgar is a full-stack startup that has evolved into a
-                business generating passive income. Therefore, I am unable to
-                share my music project codes.
-            </p>
-            <p>
-                Rameshgar offers various features, including the ability to see
-                and play music pieces for five different instruments online.
-                These instruments include Santoor, bells, Tar, Setar, and Piano,
-                and each instrument has hundreds of music pieces available. The
-                platform offers interactive animation on musical instruments and
-                music sheets, allowing users to change the tempo and play music
-                from any note they prefer. Users can also download a PDF of the
-                music sheet, and the platform is fully responsive. Additionally,
-                Rameshgar offers sight-reading web apps and ear training web
-                apps, with some focusing on Persian musical instruments.
-            </p>
-            <p>
-                Rameshgar also features a blog with different categories to
-                categorize posts. Users can write comments for music pieces and
-                blog posts. However, access to some pieces is limited, and users
-                need to buy a subscription plan to gain full access.
-            </p>
-            <p>
-                Rameshgar has a heavy backend part, and the admin has various
-                privileges, including the ability to see the list of users and
-                purchases, edit user profiles, change purchase plan details,
-                give or cancel user access to different music pieces, write
-                music pieces, and add or remove them from the site. The admin
-                can also confirm, edit, or delete user comments and add, remove,
-                or edit blog posts or categories.
-            </p>
-            <p>
-                Apart from the technical stuff, Rameshgar has taught me a lot,
-                including how to work with graphic designers, marketing persons
-                or companies, and different people to accomplish tasks. I have
-                also been invited to different tech startups, such as the Tehran
-                International Computer Exhibition, where I had to pitch the
-                platform.
-                {/* <img src={require('./images/pitch-tehran.png')} alt='' /> */}
-                <br />
-                In 2019, I was invited to the{' '}
-                <a href='https://www.seasidestartupsummit.com/'>
-                    Sevan Startup Summit
-                </a>{' '}
-                , where I pitched in English in front of many mentors over ten
-                times, receiving constructive feedback that helped me improve
-                the platform.
-                <img src={require('./images/sevan-certificate.png')} alt='' />
-            </p>
-            <p>
-                Overall, Rameshgar has been a tremendous learning experience for
-                me, and I have met many nice people and learned from them. For
-                example, during the Sevan Startup Summit, we lived in a jungle
-                in a tent near the Sevan lake, which was both challenging and
-                fun.
+                Rameshgar is an online music learning platform that I created.
+                It is the biggest project I have ever done alone and has gone
+                through three major versions. The latest version is called
+                MeloLearn, built using React. Rameshgar offers features such as
+                interactive animations on musical instruments and music sheets,
+                sight-reading web apps, and ear training web apps, with a focus
+                on Persian musical instruments. It also has a blog and allows
+                users to write comments for music pieces and blog posts. Access
+                to some pieces is limited, and users need to buy a subscription
+                plan for full access. Rameshgar has a heavy backend part, and
+                the admin has various privileges. It has taught me a lot and has
+                been a tremendous learning experience.
             </p>
         </div>
     );

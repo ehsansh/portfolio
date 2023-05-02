@@ -31,6 +31,7 @@ const Space = () => {
                 the past, they are unfortunately not available to preview
                 online. Therefore, I completed this project in less than a week
                 to showcase my skills.
+                <img src={require('./images/space-screenshot.png')} alt='' />
             </p>
         </div>
     );
