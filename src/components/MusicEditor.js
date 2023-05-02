@@ -34,6 +34,22 @@ const MusicEditor = () => {
                 ></iframe>
             </div>
             <p>
+                This is the Vue.js version of <a href='/melodia'>Melodia</a>,
+                with a music editor as the most complicated part. I chose Vue
+                because it helped me structure my work and avoid messy code like
+                jQuery. Developing the music editor was challenging, especially
+                rendering the music sheet, which I solved by splitting the
+                project into many components and relying heavily on SVG. Each
+                component is designed to do one thing, and the factory design
+                pattern is used. This project was developed without{' '}
+                <a href='https://github.com/paulrosen/abcjs'>abcjs</a>, and it
+                supports some repeat signs that abcjs does not.
+                <img
+                    src={require('./images/musiceditor-screenshot.png')}
+                    alt=''
+                />
+            </p>
+            {/* <p>
                 This project is the Vue version of{' '}
                 <a href='/melodia'>Melodia</a> , which I developed using Vue.js
                 for all the web apps. I created the project in 2019, and you can
@@ -84,7 +100,7 @@ const MusicEditor = () => {
                 support some repeat signs like measure repeat signs, which are
                 used very commonly. My web app supports these kinds of repeat
                 signs.
-            </p>
+            </p> */}
         </div>
     );
 };
