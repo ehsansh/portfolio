@@ -116,103 +116,129 @@ const Home = () => {
                 <div className='tech-stack-wrapper'>
                     <div className='tech'>
                         <img
-                            alt='html5'
+                            alt='HTML5'
                             src={require('./icons/html5.svg').default}
                         />
+                        <span>HTML5</span>
                     </div>
                     <div className='tech'>
                         <img
-                            alt='css3'
+                            alt='CSS3'
                             src={require('./icons/css3.svg').default}
                         />
+                        <span>CSS3</span>
                     </div>
                     <div className='tech'>
                         <img
-                            al='sass'
+                            alt='Sass'
                             src={require('./icons/sass.svg').default}
                         />
+                        <span>Sass</span>
                     </div>
                     <div className='tech'>
                         <img
-                            alt='javascript'
+                            alt='JavaScript'
                             src={require('./icons/javascript.svg').default}
                         />
+                        <span>JavaScript</span>
                     </div>
                     <div className='tech'>
                         <img
-                            alt='react'
+                            alt='React'
                             src={require('./icons/react.svg').default}
                         />
+                        <span>React</span>
                     </div>
                     <div className='tech'>
                         <img
-                            alt='redux'
+                            alt='Redux'
                             src={require('./icons/redux.svg').default}
                         />
-                    </div>
-                    <div className='tech'>
-                        <img src={require('./icons/vuejs.svg').default} />
+                        <span>Redux</span>
                     </div>
                     <div className='tech'>
                         <img
-                            alt='figma'
+                            alt='Vue.js'
+                            src={require('./icons/vuejs.svg').default}
+                        />
+                        <span>Vue.js</span>
+                    </div>
+                    <div className='tech'>
+                        <img
+                            alt='Figma'
                             src={require('./icons/figma.svg').default}
                         />
+                        <span>Figma</span>
                     </div>
                     <div className='tech'>
                         <img
-                            alt='nodejs'
+                            alt='Node.js'
                             src={require('./icons/nodejs.svg').default}
                         />
+                        <span>Node.js</span>
                     </div>
                     <div className='tech'>
                         <img
-                            alt='express-js'
+                            alt='Express'
                             src={require('./icons/express.svg').default}
                         />
+                        <span>Express</span>
                     </div>
                     <div className='tech'>
                         <img
-                            alt='mysql'
+                            alt='MySQL'
                             src={require('./icons/mysql.svg').default}
                         />
+                        <span>MySQL</span>
                     </div>
                     <div className='tech'>
                         <img
-                            alt='sequelize'
+                            alt='Sequelize'
                             src={require('./icons/sequelize.svg').default}
                         />
+                        <span>Sequelize</span>
                     </div>
                     <div className='tech'>
                         <img
-                            alt='github'
+                            alt='GitHub'
                             src={require('./icons/github.svg').default}
                         />
+                        <span>GitHub</span>
                     </div>
                     <div className='tech'>
                         <img
-                            alt='git'
+                            alt='Git'
                             src={require('./icons/git.svg').default}
                         />
+                        <span>Git</span>
                     </div>
-
                     <div className='tech'>
                         <img
-                            alt='vs-code'
+                            alt='VS Code'
                             src={require('./icons/vs-code.svg').default}
                         />
+                        <span>VS Code</span>
                     </div>
                     <div className='tech'>
                         <img
-                            alt='docker'
+                            alt='Docker'
                             src={require('./icons/docker.svg').default}
                         />
+                        <span>Docker</span>
                     </div>
                     <div className='tech'>
                         <img
-                            alt='jest'
+                            alt='Jest'
                             src={require('./icons/jest.svg').default}
                         />
+                        <span>Jest</span>
+                    </div>
+                    <div className='tech'>
+                        <img
+                            alt='REST API'
+                            src={require('./icons/rest-api.png')}
+                        />
+                        <span>REST API</span>
                     </div>
                 </div>
             </section>

@@ -119,9 +119,10 @@
             margin: 33px 0 80px;
         }
         div.tech {
-            width: 70px;
-            text-transform: uppercase;
+            width: 73px;
             margin: 19px 29px;
+            position: relative;
+            height: 123px;
             img {
                 display: block;
                 width: 100%;
@@ -131,6 +132,17 @@
                 font-size: 19px;
                 color: $dark;
                 display: block;
+            }
+            span {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: 8px auto;
+                font-size: 17px;
+                color: $dark;
+                display: block;
+                text-align: center;
             }
         }
     }
