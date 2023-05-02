@@ -31,6 +31,12 @@ const Home = () => {
                         <Link to='/melodia'>
                             <img src={require('./images/melodia.png')} alt='' />
                             <h3>Melodia</h3>
+                            <ul class='tech-stack'>
+                                <li>jQuery</li>
+                                <li>canvas</li>
+                                <li>html5</li>
+                                <li>css3</li>
+                            </ul>
                         </Link>
                     </div>
                     <div className='project'>
@@ -40,6 +46,12 @@ const Home = () => {
                                 alt=''
                             />
                             <h3>MeloLearn</h3>
+                            <ul class='tech-stack'>
+                                <li>React</li>
+                                <li>Redux toolkit</li>
+                                <li>Sass</li>
+                                <li>React Router</li>
+                            </ul>
                         </Link>
                     </div>
                     <div className='project'>
@@ -49,6 +61,12 @@ const Home = () => {
                                 alt=''
                             />
                             <h3>Music Editor</h3>
+                            <ul class='tech-stack'>
+                                <li>Vue2</li>
+                                <li>Vuex3</li>
+                                <li>Sass</li>
+                                <li>SVG</li>
+                            </ul>
                         </Link>
                     </div>
                     <div className='project'>
@@ -58,18 +76,36 @@ const Home = () => {
                                 alt=''
                             />
                             <h3>Rameshgar</h3>
+                            <ul class='tech-stack'>
+                                <li>React</li>
+                                <li>Redux Toolkit</li>
+                                <li>Express</li>
+                                <li>MySQL</li>
+                            </ul>
                         </Link>
                     </div>
                     <div className='project'>
                         <Link to='/comments'>
                             <img src={require('./images/comment.png')} alt='' />
                             <h3>Comments</h3>
+                            <ul class='tech-stack'>
+                                <li>React</li>
+                                <li>REST API</li>
+                                <li>Express</li>
+                                <li>Docker</li>
+                            </ul>
                         </Link>
                     </div>
                     <div className='project'>
                         <Link to='/space'>
                             <img src={require('./images/space.png')} alt='' />
                             <h3>Space</h3>
+                            <ul class='tech-stack'>
+                                <li>React</li>
+                                <li>React Router</li>
+                                <li>CSS3</li>
+                                <li>Flexbox</li>
+                            </ul>
                         </Link>
                     </div>
                 </div>

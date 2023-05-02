@@ -11,8 +11,8 @@ const Comments = () => {
             <h1>Comments</h1>
             <p>
                 <span className='bold'>Tech Stack</span>: React, Context Api,
-                React Router, Sass, Express.js, Sass, mysql, sequelize, docker,
-                docker-compose
+                React Router, Sass, Express.js, REST API, Sass, mysql,
+                sequelize, docker, docker-compose
                 <br />
                 <span className='bold'>Live Preview</span> :{' '}
                 <a href='https://comment.shadmehri.xyz'>

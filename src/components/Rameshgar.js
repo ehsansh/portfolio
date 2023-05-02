@@ -12,7 +12,7 @@ const Rameshgar = () => {
             <p>
                 <span className='bold'>Tech Stack</span>: React, React Router,
                 abcjs, Redux Toolkit, RTK Query, Workbox, Sass, HTML5, Express,
-                Sequelize, MySQL
+                REST API, Sequelize, MySQL
                 <br />
                 <span className='bold'>Live Preview</span> :{' '}
                 <a href=' https://rameshgar.com'> rameshgar.com</a>
