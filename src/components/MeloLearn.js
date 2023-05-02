@@ -33,7 +33,58 @@ const MeloLearn = () => {
                     allowfullscreen
                 ></iframe>
             </div>
+
             <p>
+                MeloLearn is an improved version of{' '}
+                <a href='/melodia'>Melodia</a> designed for music students.
+                Using <a href='https://github.com/paulrosen/abcjs'>abcjs</a>{' '}
+                allowed me to focus on developing the{' '}
+                <a href='https://melolearn.shadmehri.xyz/my-pieces'>
+                    music editor
+                </a>
+                , which required thousands of lines of code over several months.
+                However, developing the editor was challenging because of the
+                complexity of music notes, such as flags and rhythms, and the
+                lack of available solutions online.
+            </p>
+            <p>
+                Despite the challenges, MeloLearn's{' '}
+                <a href='https://melolearn.shadmehri.xyz/my-pieces'>
+                    music editor
+                </a>{' '}
+                is functional, and you can write music for the piano and play
+                it, observing the animation on the piano.
+                <img
+                    src={require('./images/melolearn-editor-screenshot.png')}
+                    alt=''
+                />
+                <br />
+                Additionally, the
+                <a href='https://melolearn.shadmehri.xyz/music-dictation'>
+                    {' '}
+                    advanced music dictation app
+                </a>
+                , a combination of three ear training web apps, is built with
+                React.
+                <img
+                    src={require('./images/melolearn-dictation-screenshot.png')}
+                    alt=''
+                />
+                <a href='https://melolearn.shadmehri.xyz/piano-sight-reading'>
+                    piano sight-reading
+                </a>{' '}
+                and{' '}
+                <a href='https://melolearn.shadmehri.xyz/sight-reading'>
+                    {' '}
+                    sight-reading
+                </a>{' '}
+                apps are also available and helpful.
+                <img
+                    src={require('./images/melolearn-sightreading-screenshot.png')}
+                    alt=''
+                />
+            </p>
+            {/* <p>
                 MeloLearn is the latest version of{' '}
                 <a href='/melodia'>Melodia</a> , designed for the same target
                 audience with improved features and a different tech stack.
@@ -100,7 +151,7 @@ const MeloLearn = () => {
                     sight-reading
                 </a>{' '}
                 apps, which are also helpful and pleasant to use.
-            </p>
+            </p> */}
         </div>
     );
 };

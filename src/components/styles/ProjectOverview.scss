@@ -22,8 +22,11 @@
     }
     img {
         display: block;
-        margin: 10px auto;
-        width: 700px;
+        margin: 20px auto;
+        // width: 700px;
+        border: 2px solid #ccc; /* add a border around the image */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add a shadow to make it stand out */
+        max-width: 80%; /* ensure the image doesn't overflow its container */
     }
     .video {
         position: relative;
